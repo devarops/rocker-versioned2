@@ -1,4 +1,6 @@
-FROM ubuntu:latest
+# docker build --tag islasgeci/tidyverse:latest .
+
+FROM ubuntu:22.04
 
 LABEL org.opencontainers.image.licenses="GPL-2.0-or-later" \
       org.opencontainers.image.source="https://github.com/rocker-org/rocker-versioned2" \
